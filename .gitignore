@@ -1,0 +1,26 @@
+# Environment & Sensitive Configuration
+.env
+.env.*
+!.env.example
+
+# Logs & Error Reports
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime & Temporary Data
+/assets/sessions/*
+!/assets/sessions/.gitkeep
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editor Configurations
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+

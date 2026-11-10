@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+        <defs>
+            <linearGradient id="g_robotics.jpg" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#0D9488"/>
+                <stop offset="100%" stop-color="#134E4A"/>
+            </linearGradient>
+            <pattern id="p" width="30" height="30" patternUnits="userSpaceOnUse">
+                <circle cx="15" cy="15" r="1" fill="rgba(255,255,255,0.15)"/>
+            </pattern>
+        </defs>
+        <rect width="800" height="450" fill="url(#g_robotics.jpg)"/>
+        <rect width="800" height="450" fill="url(#p)"/>
+        <g transform="translate(50, 260)">
+            <rect width="120" height="28" rx="6" fill="rgba(255,255,255,0.2)"/>
+            <text x="60" y="19" fill="#ffffff" font-family="system-ui, sans-serif" font-size="12" font-weight="bold" text-anchor="middle">Hardware</text>
+            <text x="0" y="72" fill="#ffffff" font-family="system-ui, sans-serif" font-size="32" font-weight="800">Robotics & IoT Lab</text>
+            <text x="0" y="110" fill="rgba(255,255,255,0.85)" font-family="system-ui, sans-serif" font-size="15" font-weight="500">CAMPUS EVENTS • UNIVERSITY REGISTRATION</text>
+        </g>
+    </svg>
